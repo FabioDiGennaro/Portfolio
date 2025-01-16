@@ -1,0 +1,8 @@
+.HomeContacts{
+    display: flex;
+}
+.FotoBack {
+    width: 30px; /* Imposta la larghezza desiderata per l'immagine */
+    height: 30px; /* Imposta l'altezza desiderata per l'immagine */
+    object-fit: contain; /* Mantiene le proporzioni originali dell'immagine senza distorcerla */
+}

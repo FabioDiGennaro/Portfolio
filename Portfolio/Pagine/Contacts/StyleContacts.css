@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Occupa l'intera altezza della finestra */
+    background-color: #ededed;
+    margin: 0;
+    position: relative;
+}
+
+.HomeContacts {
+    display: grid; /* Usa grid per la disposizione */
+    grid-template-columns: repeat(3, 80px); /* 3 colonne per le bolle */
+    grid-template-rows: repeat(2, 80px); /* 2 righe per le bolle */
+    gap: 30px; /* Spaziatura tra le bolle */
+    justify-items: center; /* Centra ogni elemento nella griglia */
+    align-items: center; /* Centra ogni elemento verticalmente nella griglia */
+    position: relative;
+    text-align: center;
+}
+
+.Indietro {
+    position: absolute;   
+    top: 20px;
+    left: 20px;
+    z-index: 10; /* Assicura che la freccia sia sopra altri contenuti */
+}
+
+.FotoBack {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.ContainerSocials {
+    display: grid; /* Usa la griglia per la formazione delle bolle */
+    grid-template-columns: repeat(3, 80px); /* 3 colonne per la prima riga */
+    grid-template-rows: 80px 80px; /* 2 righe */
+    gap: 30px; /* Spaziatura tra le bolle */
+    justify-items: center; /* Centra le bolle nella griglia */
+    align-items: center;
+    margin: 0 auto; /* Centra il contenitore */
+}
+
+.SocialBubble {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.SocialBubble img {
+    width: 50px;
+    height: 50px;
+}
+
+.SocialBubble a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
