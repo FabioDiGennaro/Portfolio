@@ -1,4 +1,6 @@
-# Benvenuti nel mio portfolio personale, uno spazio minimalista progettato per rappresentare il mio percorso e la mia passione per la programmazione.
+# Benvenuti nel mio portfolio personale
+
+Uno spazio minimalista progettato per rappresentare il mio percorso e la mia passione per la programmazione.
 
 Questo sito è il risultato di un progetto personale, pensato per interfacciarmi con il mondo dello sviluppo software e condividere il mio lavoro con chi è interessato alle mie competenze e al mio stile creativo.
 
